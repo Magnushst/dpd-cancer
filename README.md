@@ -1,4 +1,4 @@
-# dpd-cancer
+# DPD-Cancer
 
 Graph neural network–based drug response prediction served as a web application.
 
