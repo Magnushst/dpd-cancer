@@ -33,16 +33,3 @@ Featuriser environment (Python 3.8, DeepChem, molfeat, RDKit)
 Inference environment (Python 3.12, PyTorch, PyTorch Geometric, Lightning)
 - Defined by env_deeppd.yml.
 - Used by predict.py and interpret.py.
-
-Example creation commands:
-
-# 1) Web env: Flask + Redis client + RQ + gunicorn
-conda env create -f env_web.yml
-
-# 2) Featuriser env: Python 3.8 + DeepChem + molfeat
-conda env create -f env_featuriser.yml
-
-# 3) Inference env: Python 3.12 + PyTorch + PyG + Lightning
-conda env create -f env_deeppd.yml
-
-The actual environment names will be whatever is specified in the YAML files (e.g. deeppd_web, featuriser, deeppd).
