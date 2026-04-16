@@ -1,6 +1,6 @@
 # DPD-Cancer
 
-Graph neural network–based drug response prediction served as a web application.
+Graph neural network–based drug response prediction served as a web application (https://biosig.lab.uq.edu.au/dpd_cancer).
 
 This repository provides a complete, production-ready stack for running pretrained
 GAT-based models for:
