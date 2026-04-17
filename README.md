@@ -20,16 +20,10 @@ job system. The system is designed for researchers who wish to:
 
 ## Conda Environments
 
-The repository assumes three environments:
-
-Web environment (Flask, redis-py, rq, gunicorn/WSGI stack)
-- Defined by env_web.yml.
-- Used by app.py, main_handler.py, run.py, wsgi.py.
+The repository assumes the following environments:
 
 Featuriser environment (Python 3.8, DeepChem, molfeat, RDKit)
 - Defined by env_featuriser.yml.
-- Used by featuriser.py.
 
 Inference environment (Python 3.12, PyTorch, PyTorch Geometric, Lightning)
 - Defined by env_deeppd.yml.
-- Used by predict.py and interpret.py.
